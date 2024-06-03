@@ -7,3 +7,8 @@ $(".show-more").click(function () {
 
     $(".text").toggleClass("show-more-height");
 });
+
+window.onload = function()
+{
+  document.getElementById("spanYear").innerHTML = new Date().getFullYear();
+}
